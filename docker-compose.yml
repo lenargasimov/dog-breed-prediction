@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+   dog-breed-prediction:
+    build: ./
+    command: python3 main.py
